@@ -12,34 +12,34 @@ In addition Walmart runs several promotional markdown eventss throughout the yea
 
 1) stores.csv : This file contains anonymized information about 45 stores, indicating the type and size of store.
 
-2) train.csv : This is the historical training data, which covers to 2010-02-05 to 2012-10-26. Within file you will fing the following fields :
+2) train.csv : This is the historical training data, which covers to 2010-02-05 to 2012-10-26. Within file you will fing the following      fields :
 
-(a) Store - the store number.
+ (a) Store - the store number.
 
-(b) Dept - the department number.
+ (b) Dept - the department number.
 
-(c) Date - the week.
+ (c) Date - the week.
 
-(d) Weekly_Sales - sales for the given department in the given store.
+ (d) Weekly_Sales - sales for the given department in the given store.
 
-(e) IsHoliday - whether the week is a special holiday week.
+ (e) IsHoliday - whether the week is a special holiday week.
 
-3) test.csv : The file is identical to train.csv, except we have withheld the Weekly_Sales. You must predict the sales for each triplet of store, department and date in this file.
+3) test.csv : The file is identical to train.csv, except we have withheld the Weekly_Sales. You must predict the sales for each triplet    of store, department and date in this file.
 
-4) features.csv : The file contains additional data related to the store, department, and regional activities for the given dates. It contains the following fields :
+4) features.csv : The file contains additional data related to the store, department, and regional activities for the given dates. It      contains the following fields :
 
-(a) Store -the store number.
+ (a) Store -the store number.
 
-(b) Date - the week.
+ (b) Date - the week.
 
-(c) Temperature - average temperature in the region.
+ (c) Temperature - average temperature in the region.
 
-(d) Fuel_Price - cost of fuel in the region.
+ (d) Fuel_Price - cost of fuel in the region.
 
-(e) MarkDown1-5 - anonymized data related to promotional markdowns that Walmart is running. MarkDown data is only available after Nov, 2011, and is not available for all stores all the time. Any missing value is marked with an NA.
+ (e) MarkDown1-5 - anonymized data related to promotional markdowns that Walmart is running. MarkDown data is only available after Nov,      2011, and is not available for all stores all the time. Any missing value is marked with an NA.
 
-(f)CPI - the consumer price index.
+ (f) CPI - the consumer price index.
 
-(g) Unemployment - the unemployment rate.
+ (g) Unemployment - the unemployment rate.
 
-(h) IsHoliday - whether the week is a special holiday week.
+ (h) IsHoliday - whether the week is a special holiday week.
